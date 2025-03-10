@@ -22,6 +22,7 @@ project "Imgui"
        "imgui_demo.cpp"
     }
 
+
     filter "system:windows"
         cppdialect "C++17"
         systemversion "latest"
