@@ -3,7 +3,7 @@
 @set OUT_EXE=example_glfw_vulkan
 @set INCLUDES=/I..\.. /I..\..\backends /I..\libs\glfw\include /I %VULKAN_SDK%\include
 @set SOURCES=main.cpp ..\..\backends\imgui_impl_vulkan.cpp ..\..\backends\imgui_impl_glfw.cpp ..\..\imgui*.cpp
-@set LIBS=/LIBPATH:..\libs\glfw\lib-vc2010-64 /libpath:%VULKAN_SDK%\lib glfw3.lib opengl32.lib gdi32.lib shell32.lib vulkan-1.lib
+@set LIBS=/LIBPATH:..\libs\glfw\lib-vc2010-64 /libpath:%VULKAN_SDK%\Lib glfw3.lib opengl32.lib gdi32.lib shell32.lib vulkan-1.lib
 
 @set OUT_DIR=Debug
 mkdir %OUT_DIR%
